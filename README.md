@@ -70,7 +70,7 @@ bilingual 的精髓是中文句内 code-switching：**每句只自然混入 1–
 把 Skill 复制到 Codex 的个人 Skills 目录：
 
 ```bash
-cp -R ./jargon-codec-zh/skills/jargon-codec-zh ~/.codex/skills/
+git clone https://github.com/AlexBybye/jargon-codec-zh.git ~/.codex/skills/jargon-codec-zh
 ```
 
 随后在新任务中使用 `$jargon-codec-zh`。
@@ -126,14 +126,14 @@ cp -R ./jargon-codec-zh/skills/jargon-codec-zh ~/.codex/skills/
 ## 仓库内容
 
 ```text
-jargon-codec-zh/skills/jargon-codec-zh/
+jargon-codec-zh/
 ├── SKILL.md                 # 转换流程、档位与语义底线
 ├── agents/openai.yaml       # Skill 展示与默认调用提示
 └── references/glossary.md   # 互联网、研发、商业与 AI 黑话词库
 ```
 
-- [查看 Skill](./jargon-codec-zh/skills/jargon-codec-zh/SKILL.md)
-- [查看完整词库](./jargon-codec-zh/skills/jargon-codec-zh/references/glossary.md)
+- [查看 Skill](./SKILL.md)
+- [查看完整词库](./references/glossary.md)
 
 ---
 
